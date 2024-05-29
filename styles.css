@@ -1,0 +1,26 @@
+body{
+    background-color: rgba(23, 213, 247, 0.189);
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-control{
+    text-align: center;
+}
+
+.btn{
+    margin-left: 43%;
+}
+.container{
+    width: 100vh;
+}
+
+
+footer{
+    text-align: center;
+    font-family: cursive;
+}
