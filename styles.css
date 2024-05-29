@@ -1,26 +1,40 @@
 body{
-    background-color: rgba(23, 213, 247, 0.189);
+    background-image:url(media/background.jpg);
 }
 
 h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
     text-align: center;
+    color: white;
+    font-family: "Quicksand", sans-serif;
 }
-
+.mb-3{
+    margin-top: 25px;
+}
 .form-control{
     text-align: center;
 }
 
 .btn{
     margin-left: 43%;
+    font-family: "Quicksand", sans-serif;
 }
 .container{
     width: 100vh;
+    border-color: aliceblue;
+    padding: 100px;
+    padding-bottom: 10px;
 }
 
+.primo {
+    color:green; 
+}
+
+.no-primo {
+    color: red; 
+}
 
 footer{
     text-align: center;
-    font-family: cursive;
+    color: white;
+    font-family: "Quicksand", sans-serif;
 }

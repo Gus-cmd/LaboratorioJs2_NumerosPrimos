@@ -17,8 +17,12 @@ function verificarPrimo() {
 
     // Mostrar el resultado
     if (esPrimo) {
+        
         document.getElementById('resultado').innerText = `${numero} es un número primo.`;
+        document.getElementById('resultado').className = 'primo';
     } else {
+    
         document.getElementById('resultado').innerText = `${numero} no es un número primo.`;
+        document.getElementById('resultado').className = 'no-primo';
     }
 }
