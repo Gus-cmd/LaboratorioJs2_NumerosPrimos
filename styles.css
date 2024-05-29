@@ -1,5 +1,8 @@
-body{
-    background-image:url(media/background.jpg);
+body {
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), /* Degradado */
+        url(media/background.jpg); 
+    filter: blur(0.1px);
 }
 
 h1{
